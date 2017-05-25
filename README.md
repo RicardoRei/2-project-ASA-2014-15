@@ -3,5 +3,18 @@
 
 grade: 20/20
 
-I based myself on the paper presented on file e0082.pdf.
-The problem in this project was to find the shortest path to a source with negative weight arcs, and in the end we needed to identify the nodes on the graph that below to a negative cycle. 
+## Description
+
+The project consists in the implementation of a SPFA algorithm in C language. For more info you can consult file p1.pdf.
+
+## Analysis
+
+In file relatorioP1.pdf you can find our analysis to the algorithm in the context of this project.
+
+## Run
+
+gcc -ansi -Wall -pedantic -o project SPFAalgorithm.c
+
+./project
+
+Now you just need to insert the commands specified in p1.pdf
